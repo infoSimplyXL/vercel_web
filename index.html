@@ -4,13 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="naver-site-verification" content="bc49752ee026a605e3159de761d7f336a5234b3f" />
-	<meta name="naver-site-verification" content="86f62b88c8f1b5616fd47c97124139013b0c3123" />
+    <meta name="naver-site-verification" content="bc49752ee026a605e3159de761d7f336a5234b3f" />
+    <meta name="naver-site-verification" content="86f62b88c8f1b5616fd47c97124139013b0c3123" />
     <title>Redirecting...</title>
     <meta http-equiv="refresh" content="0; URL='https://start.dailyvoca.io'">
 </head>
 
 <body>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyCiVIgpszIcxlCzgTqAnyCIiArwuhUwMEk",
+            authDomain: "dailyvocahome.firebaseapp.com",
+            projectId: "dailyvocahome",
+            storageBucket: "dailyvocahome.appspot.com",
+            messagingSenderId: "40201900775",
+            appId: "1:40201900775:web:eec5c336dd75aa47acc842",
+            measurementId: "G-MR6VLKZL8X"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
     <p>If you are not redirected automatically, follow this <a href="https://start.dailyvoca.io">link</a>.</p>
 </body>
 
